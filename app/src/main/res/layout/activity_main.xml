@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:orientation="vertical"
+    tools:context="com.liran.heartme.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:hint="Test name"
+        android:gravity="center"
+        android:id="@+id/etTestName"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:hint="Result"
+        android:gravity="center"
+        android:inputType="number"
+        android:id="@+id/etResult"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check"
+        android:id="@+id/btnCheck"
+        android:background="#ccc"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:id="@+id/tvResult"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>
